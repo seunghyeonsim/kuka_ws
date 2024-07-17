@@ -1,0 +1,35 @@
+[0.046s] Invoking command in '/home/kuka/kuka_ws/build/kuka_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kuka/kuka_ws/install/kuka_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/kuka/kuka_ws/build/kuka_description -- -j8 -l8
+[0.642s] Invoked command in '/home/kuka/kuka_ws/build/kuka_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kuka/kuka_ws/install/kuka_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/kuka/kuka_ws/build/kuka_description -- -j8 -l8
+[0.709s] Invoking command in '/home/kuka/kuka_ws/build/kuka_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kuka/kuka_ws/install/kuka_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/kuka/kuka_ws/build/kuka_description
+[0.726s] -- Install configuration: ""
+[0.727s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/meshes
+[0.727s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/meshes/link2_exp.stl
+[0.728s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/meshes/link5_exp.stl
+[0.728s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/meshes/link4_exp.stl
+[0.728s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/meshes/link6_exp.stl
+[0.729s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/meshes/link1_exp.stl
+[0.729s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/meshes/link0_exp.stl
+[0.729s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/meshes/link3_exp.stl
+[0.730s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/urdf
+[0.730s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/urdf/arduinobot.urdf.xacro
+[0.730s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/urdf/kuka.urdf.xacro
+[0.731s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/launch
+[0.731s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/launch/display.launch.py
+[0.731s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/rviz
+[0.731s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/rviz/display.rviz
+[0.732s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_description/share/ament_index/resource_index/package_run_dependencies/kuka_description
+[0.733s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_description/share/ament_index/resource_index/parent_prefix_path/kuka_description
+[0.734s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/environment/ament_prefix_path.sh
+[0.735s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/environment/ament_prefix_path.dsv
+[0.735s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/environment/path.sh
+[0.736s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/environment/path.dsv
+[0.737s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/local_setup.bash
+[0.738s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/local_setup.sh
+[0.738s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/local_setup.zsh
+[0.739s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/local_setup.dsv
+[0.740s] -- Installing: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/package.dsv
+[0.741s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_description/share/ament_index/resource_index/packages/kuka_description
+[0.741s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/cmake/kuka_descriptionConfig.cmake
+[0.742s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/cmake/kuka_descriptionConfig-version.cmake
+[0.742s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/package.xml
+[0.744s] Invoked command in '/home/kuka/kuka_ws/build/kuka_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kuka/kuka_ws/install/kuka_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/kuka/kuka_ws/build/kuka_description

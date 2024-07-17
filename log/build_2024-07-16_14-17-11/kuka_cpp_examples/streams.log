@@ -1,0 +1,24 @@
+[0.046s] Invoking command in '/home/kuka/kuka_ws/build/kuka_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kuka/kuka_ws/install/kuka_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/kuka/kuka_ws/build/kuka_cpp_examples -- -j8 -l8
+[0.188s] [100%] Built target simple_publisher
+[0.188s] [100%] Built target simple_subscriber
+[0.680s] Invoked command in '/home/kuka/kuka_ws/build/kuka_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kuka/kuka_ws/install/kuka_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/kuka/kuka_ws/build/kuka_cpp_examples -- -j8 -l8
+[0.752s] Invoking command in '/home/kuka/kuka_ws/build/kuka_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kuka/kuka_ws/install/kuka_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/kuka/kuka_ws/build/kuka_cpp_examples
+[0.778s] -- Install configuration: ""
+[0.779s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_cpp_examples/lib/kuka_cpp_examples/simple_publisher
+[0.779s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_cpp_examples/lib/kuka_cpp_examples/simple_subscriber
+[0.779s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_cpp_examples/share/ament_index/resource_index/package_run_dependencies/kuka_cpp_examples
+[0.780s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_cpp_examples/share/ament_index/resource_index/parent_prefix_path/kuka_cpp_examples
+[0.780s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_cpp_examples/share/kuka_cpp_examples/environment/ament_prefix_path.sh
+[0.781s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_cpp_examples/share/kuka_cpp_examples/environment/ament_prefix_path.dsv
+[0.781s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_cpp_examples/share/kuka_cpp_examples/environment/path.sh
+[0.781s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_cpp_examples/share/kuka_cpp_examples/environment/path.dsv
+[0.781s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_cpp_examples/share/kuka_cpp_examples/local_setup.bash
+[0.782s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_cpp_examples/share/kuka_cpp_examples/local_setup.sh
+[0.782s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_cpp_examples/share/kuka_cpp_examples/local_setup.zsh
+[0.783s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_cpp_examples/share/kuka_cpp_examples/local_setup.dsv
+[0.783s] -- Installing: /home/kuka/kuka_ws/install/kuka_cpp_examples/share/kuka_cpp_examples/package.dsv
+[0.783s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_cpp_examples/share/ament_index/resource_index/packages/kuka_cpp_examples
+[0.784s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_cpp_examples/share/kuka_cpp_examples/cmake/kuka_cpp_examplesConfig.cmake
+[0.784s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_cpp_examples/share/kuka_cpp_examples/cmake/kuka_cpp_examplesConfig-version.cmake
+[0.784s] -- Up-to-date: /home/kuka/kuka_ws/install/kuka_cpp_examples/share/kuka_cpp_examples/package.xml
+[0.813s] Invoked command in '/home/kuka/kuka_ws/build/kuka_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kuka/kuka_ws/install/kuka_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/kuka/kuka_ws/build/kuka_cpp_examples

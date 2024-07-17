@@ -1,0 +1,6 @@
+Invoking command in '/home/kuka/kuka_ws/build/kuka_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kuka/kuka_ws/src/kuka_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/kuka/kuka_ws/install/kuka_cpp_examples
+Invoked command in '/home/kuka/kuka_ws/build/kuka_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kuka/kuka_ws/src/kuka_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/kuka/kuka_ws/install/kuka_cpp_examples
+Invoking command in '/home/kuka/kuka_ws/build/kuka_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kuka/kuka_ws/build/kuka_cpp_examples -- -j8 -l8
+Invoked command in '/home/kuka/kuka_ws/build/kuka_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kuka/kuka_ws/build/kuka_cpp_examples -- -j8 -l8
+Invoking command in '/home/kuka/kuka_ws/build/kuka_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kuka/kuka_ws/build/kuka_cpp_examples
+Invoked command in '/home/kuka/kuka_ws/build/kuka_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kuka/kuka_ws/build/kuka_cpp_examples

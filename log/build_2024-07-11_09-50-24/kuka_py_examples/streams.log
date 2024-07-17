@@ -1,0 +1,29 @@
+[1.407s] Invoking command in '/home/kuka/kuka_ws/src/kuka_py_examples': PYTHONPATH=/home/kuka/kuka_ws/build/kuka_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kuka/kuka_ws/install/kuka_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/kuka_py_examples build --build-base /home/kuka/kuka_ws/build/kuka_py_examples/build install --record /home/kuka/kuka_ws/build/kuka_py_examples/install.log --single-version-externally-managed install_data
+[1.956s] running egg_info
+[1.957s] writing ../../build/kuka_py_examples/kuka_py_examples.egg-info/PKG-INFO
+[1.958s] writing dependency_links to ../../build/kuka_py_examples/kuka_py_examples.egg-info/dependency_links.txt
+[1.958s] writing entry points to ../../build/kuka_py_examples/kuka_py_examples.egg-info/entry_points.txt
+[1.958s] writing requirements to ../../build/kuka_py_examples/kuka_py_examples.egg-info/requires.txt
+[1.959s] writing top-level names to ../../build/kuka_py_examples/kuka_py_examples.egg-info/top_level.txt
+[1.962s] reading manifest file '../../build/kuka_py_examples/kuka_py_examples.egg-info/SOURCES.txt'
+[1.964s] writing manifest file '../../build/kuka_py_examples/kuka_py_examples.egg-info/SOURCES.txt'
+[1.964s] running build
+[1.965s] running build_py
+[1.965s] copying kuka_py_examples/simple_publisher.py -> /home/kuka/kuka_ws/build/kuka_py_examples/build/lib/kuka_py_examples
+[1.965s] copying kuka_py_examples/simple_subscriber.py -> /home/kuka/kuka_ws/build/kuka_py_examples/build/lib/kuka_py_examples
+[1.965s] running install
+[1.966s] running install_lib
+[1.968s] copying /home/kuka/kuka_ws/build/kuka_py_examples/build/lib/kuka_py_examples/simple_publisher.py -> /home/kuka/kuka_ws/install/kuka_py_examples/lib/python3.10/site-packages/kuka_py_examples
+[1.968s] copying /home/kuka/kuka_ws/build/kuka_py_examples/build/lib/kuka_py_examples/simple_subscriber.py -> /home/kuka/kuka_ws/install/kuka_py_examples/lib/python3.10/site-packages/kuka_py_examples
+[1.969s] byte-compiling /home/kuka/kuka_ws/install/kuka_py_examples/lib/python3.10/site-packages/kuka_py_examples/simple_publisher.py to simple_publisher.cpython-310.pyc
+[1.970s] byte-compiling /home/kuka/kuka_ws/install/kuka_py_examples/lib/python3.10/site-packages/kuka_py_examples/simple_subscriber.py to simple_subscriber.cpython-310.pyc
+[1.971s] running install_data
+[1.971s] copying package.xml -> /home/kuka/kuka_ws/install/kuka_py_examples/share/kuka_py_examples
+[1.971s] running install_egg_info
+[1.974s] removing '/home/kuka/kuka_ws/install/kuka_py_examples/lib/python3.10/site-packages/kuka_py_examples-0.0.0-py3.10.egg-info' (and everything under it)
+[1.975s] Copying ../../build/kuka_py_examples/kuka_py_examples.egg-info to /home/kuka/kuka_ws/install/kuka_py_examples/lib/python3.10/site-packages/kuka_py_examples-0.0.0-py3.10.egg-info
+[1.977s] running install_scripts
+[2.022s] Installing simple_publisher script to /home/kuka/kuka_ws/install/kuka_py_examples/lib/kuka_py_examples
+[2.022s] Installing simple_subscriber script to /home/kuka/kuka_ws/install/kuka_py_examples/lib/kuka_py_examples
+[2.023s] writing list of installed files to '/home/kuka/kuka_ws/build/kuka_py_examples/install.log'
+[2.067s] Invoked command in '/home/kuka/kuka_ws/src/kuka_py_examples' returned '0': PYTHONPATH=/home/kuka/kuka_ws/build/kuka_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kuka/kuka_ws/install/kuka_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/kuka_py_examples build --build-base /home/kuka/kuka_ws/build/kuka_py_examples/build install --record /home/kuka/kuka_ws/build/kuka_py_examples/install.log --single-version-externally-managed install_data

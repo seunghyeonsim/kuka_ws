@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/kuka_py_examples/kuka_py_examples.egg-info
+writing ../../build/kuka_py_examples/kuka_py_examples.egg-info/PKG-INFO
+writing dependency_links to ../../build/kuka_py_examples/kuka_py_examples.egg-info/dependency_links.txt
+writing entry points to ../../build/kuka_py_examples/kuka_py_examples.egg-info/entry_points.txt
+writing requirements to ../../build/kuka_py_examples/kuka_py_examples.egg-info/requires.txt
+writing top-level names to ../../build/kuka_py_examples/kuka_py_examples.egg-info/top_level.txt
+writing manifest file '../../build/kuka_py_examples/kuka_py_examples.egg-info/SOURCES.txt'
+reading manifest file '../../build/kuka_py_examples/kuka_py_examples.egg-info/SOURCES.txt'
+writing manifest file '../../build/kuka_py_examples/kuka_py_examples.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kuka/kuka_ws/build/kuka_py_examples/build
+creating /home/kuka/kuka_ws/build/kuka_py_examples/build/lib
+creating /home/kuka/kuka_ws/build/kuka_py_examples/build/lib/kuka_py_examples
+copying kuka_py_examples/__init__.py -> /home/kuka/kuka_ws/build/kuka_py_examples/build/lib/kuka_py_examples
+running install
+running install_lib
+creating /home/kuka/kuka_ws/install/kuka_py_examples/lib/python3.10/site-packages/kuka_py_examples
+copying /home/kuka/kuka_ws/build/kuka_py_examples/build/lib/kuka_py_examples/__init__.py -> /home/kuka/kuka_ws/install/kuka_py_examples/lib/python3.10/site-packages/kuka_py_examples
+byte-compiling /home/kuka/kuka_ws/install/kuka_py_examples/lib/python3.10/site-packages/kuka_py_examples/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/kuka/kuka_ws/install/kuka_py_examples/share/ament_index
+creating /home/kuka/kuka_ws/install/kuka_py_examples/share/ament_index/resource_index
+creating /home/kuka/kuka_ws/install/kuka_py_examples/share/ament_index/resource_index/packages
+copying resource/kuka_py_examples -> /home/kuka/kuka_ws/install/kuka_py_examples/share/ament_index/resource_index/packages
+copying package.xml -> /home/kuka/kuka_ws/install/kuka_py_examples/share/kuka_py_examples
+running install_egg_info
+Copying ../../build/kuka_py_examples/kuka_py_examples.egg-info to /home/kuka/kuka_ws/install/kuka_py_examples/lib/python3.10/site-packages/kuka_py_examples-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/kuka/kuka_ws/build/kuka_py_examples/install.log'
