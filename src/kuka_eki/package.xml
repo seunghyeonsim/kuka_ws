@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>kuka_eki</name>
+  <version>0.0.0</version>
+  <description>ROS 2 패키지로, Kuka 로봇을 EKI(Ethernet KRL Interface)를 통해 제어하기 위한 서비스 서버를 제공합니다.</description>
+  <maintainer email="tlatmdgus19589@naver.com">kuka</maintainer>
+  <license>Apache License 2.0</license>
+
+  <depend>rclpy</depend>
+  <depend>kuka_control_box_srvs</depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

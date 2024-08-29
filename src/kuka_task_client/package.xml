@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>kuka_task_client</name>
+  <version>0.0.0</version>
+  <description>Python client for Kuka transform input service</description>
+  <maintainer email="example@domain.com">Your Name</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- 빌드 도구 의존성 -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <!-- 실행 의존성 -->
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>kuka_control_box_srvs</exec_depend>
+  <exec_depend>numpy</exec_depend>
+  <exec_depend>scipy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend> <!-- JointState 메시지 사용을 위한 의존성 -->
+  <exec_depend>std_msgs</exec_depend> <!-- Header 메시지 사용을 위한 의존성 -->
+
+  <!-- 테스트 의존성 -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

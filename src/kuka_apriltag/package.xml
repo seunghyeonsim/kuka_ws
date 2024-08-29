@@ -1,0 +1,14 @@
+<package format="2">
+  <name>kuka_apriltag</name>
+  <version>0.0.0</version>
+  <description>kuka_apriltag description</description>
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+  <depend>launch</depend> <!-- 추가된 launch 패키지 의존성 -->
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

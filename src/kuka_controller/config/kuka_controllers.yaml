@@ -1,6 +1,6 @@
 controller_manager:
   ros__parameters:
-    update_rate: 10 # Hz
+    update_rate: 1000 # Hz
 
     arm_controller:
       type: joint_trajectory_controller/JointTrajectoryController
@@ -17,7 +17,7 @@ arm_controller:
       - joint_4
       - joint_5
       - joint_6
-
+      - end_effector_joint
     command_interfaces:
       - position
 

@@ -1,39 +1,24 @@
-#define _USE_MATH_DEFINES
-#include <cmath>
-#include <eigen3/Eigen/Core>
-#include <eigen3/Eigen/Dense>
-#include <eigen3/Eigen/Eigen>
-#include <eigen3/Eigen/QR>
+#ifndef ROBOTICS_H
+#define ROBOTICS_H
+
+#include <Eigen/Dense>
+#include <vector>
 
 using namespace Eigen;
 
+namespace Robotics {
+    bool Nearzero(double value);
+    VectorXd so3ToVec(const MatrixXd& so3mat);
+    VectorXd se3ToVec(const MatrixXd& se3mat);
+    MatrixXd VecToso3(const VectorXd& omg);
+    MatrixXd VecTose3(const VectorXd& V);
+    MatrixXd MatrixExp3(const MatrixXd& so3mat);
+    MatrixXd MatrixExp6(const MatrixXd& se3mat);
+    MatrixXd FKinBody(const MatrixXd& M, const MatrixXd& Blist, const VectorXd& thetalist);
+    MatrixXd FKinSpace(const MatrixXd& M, const MatrixXd& Slist, const VectorXd& thetalist);
+    MatrixXd Adjoint(const MatrixXd& T);
+    MatrixXd JacobianBody(const MatrixXd& Blist, const VectorXd& thetalist);
+    std::vector<VectorXd> kuka_ik(const Matrix3d& R, const Vector3d& P);
+}
 
-MatrixXf getBlist();
-
-MatrixXf getM();
-
-bool Nearzero(float value);
-
-bool iszero(MatrixXf T);
-
-MatrixXf MatrixExp3(MatrixXf so3mat);
-
-MatrixXf MatrixExp6(MatrixXf se3mat);
-
-MatrixXf MatrixLog3(MatrixXf R);
-
-MatrixXf MatrixLog6(MatrixXf T);
-
-MatrixXf Adjoint(MatrixXf T);
-
-VectorXf so3ToVec(MatrixXf so3mat);
-
-VectorXf se3ToVec(MatrixXf se3mat);
-
-MatrixXf VecTose3(VectorXf V);
-
-MatrixXf VecToso3(VectorXf omg);
-
-MatrixXf JacobianBody(MatrixXf Blist, VectorXf thetalist);
-
-MatrixXf FKinBody(MatrixXf M, MatrixXf Blist, VectorXf thetalist);
+#endif // ROBOTICS_H

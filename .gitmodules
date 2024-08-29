@@ -1,0 +1,6 @@
+[submodule "src/src/realsense-ros"]
+	path = src/src/realsense-ros
+	url = https://github.com/IntelRealSense/realsense-ros
+[submodule "src/src/apriltag_ros"]
+	path = src/src/apriltag_ros
+	url = https://github.com/christianrauch/apriltag_ros

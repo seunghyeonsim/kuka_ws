@@ -5,9 +5,9 @@ Panels:
     Property Tree Widget:
       Expanded:
         - /RobotModel1
-        - /RobotModel1/Links1
+        - /Image1
       Splitter Ratio: 0.5
-    Tree Height: 427
+    Tree Height: 70
   - Class: rviz_common/Views
     Expanded:
       - /Current View1
@@ -47,7 +47,7 @@ Visualization Manager:
         Value: /robot_description
       Enabled: true
       Links:
-        All Links Enabled: false
+        All Links Enabled: true
         Expand Joint Details: false
         Expand Link Details: false
         Expand Tree: false
@@ -56,18 +56,104 @@ Visualization Manager:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-          Value: false
+          Value: true
+        camera_accel_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        camera_accel_optical_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        camera_bottom_screw_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        camera_color_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        camera_color_optical_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        camera_depth_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        camera_depth_optical_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        camera_gyro_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        camera_gyro_optical_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        camera_imu_optical_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        camera_infra1_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        camera_infra1_optical_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        camera_infra2_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        camera_infra2_optical_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        camera_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        drill_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        end_effector_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
         link_1:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-          Value: false
+          Value: true
         link_2:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-          Value: false
+          Value: true
         link_3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        link_4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        link_5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        link_6:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -91,11 +177,53 @@ Visualization Manager:
         All Enabled: true
         base_link:
           Value: true
+        camera_accel_frame:
+          Value: true
+        camera_accel_optical_frame:
+          Value: true
+        camera_bottom_screw_frame:
+          Value: true
+        camera_color_frame:
+          Value: true
+        camera_color_optical_frame:
+          Value: true
+        camera_depth_frame:
+          Value: true
+        camera_depth_optical_frame:
+          Value: true
+        camera_gyro_frame:
+          Value: true
+        camera_gyro_optical_frame:
+          Value: true
+        camera_imu_optical_frame:
+          Value: true
+        camera_infra1_frame:
+          Value: true
+        camera_infra1_optical_frame:
+          Value: true
+        camera_infra2_frame:
+          Value: true
+        camera_infra2_optical_frame:
+          Value: true
+        camera_link:
+          Value: true
+        drill_link:
+          Value: true
+        end_effector_link:
+          Value: true
         link_1:
           Value: true
         link_2:
           Value: true
         link_3:
+          Value: true
+        link_4:
+          Value: true
+        link_5:
+          Value: true
+        link_6:
+          Value: true
+        tag1:
           Value: true
         world:
           Value: true
@@ -110,8 +238,49 @@ Visualization Manager:
             link_1:
               link_2:
                 link_3:
-                  {}
+                  link_4:
+                    link_5:
+                      link_6:
+                        end_effector_link:
+                          camera_bottom_screw_frame:
+                            camera_link:
+                              camera_accel_frame:
+                                camera_accel_optical_frame:
+                                  {}
+                              camera_color_frame:
+                                camera_color_optical_frame:
+                                  tag1:
+                                    {}
+                              camera_depth_frame:
+                                camera_depth_optical_frame:
+                                  {}
+                              camera_gyro_frame:
+                                camera_gyro_optical_frame:
+                                  camera_imu_optical_frame:
+                                    {}
+                              camera_infra1_frame:
+                                camera_infra1_optical_frame:
+                                  {}
+                              camera_infra2_frame:
+                                camera_infra2_optical_frame:
+                                  {}
+                          drill_link:
+                            {}
       Update Interval: 0
+      Value: true
+    - Class: rviz_default_plugins/Image
+      Enabled: true
+      Max Value: 1
+      Median window: 5
+      Min Value: 0
+      Name: Image
+      Normalize Range: true
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /camera/camera/color/image_raw
       Value: true
   Enabled: true
   Global Options:
@@ -128,25 +297,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 2.524200201034546
+      Distance: 5.057655334472656
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 0.4466073513031006
-        Y: 0.4078272581100464
-        Z: 0.4441736936569214
+        X: 1.064980149269104
+        Y: -0.9601102471351624
+        Z: 1.0907715559005737
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.05500031262636185
+      Pitch: 0.11000066250562668
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 1.4218146800994873
+      Yaw: 1.3518143892288208
     Saved: ~
 Window Geometry:
   Displays:
@@ -154,7 +323,9 @@ Window Geometry:
   Height: 1016
   Hide Left Dock: false
   Hide Right Dock: false
-  QMainWindow State: 000000ff00000000fd0000000100000000000001cb0000039efc0200000002fb000000100044006900730070006c006100790073010000003d0000022e000000c900fffffffb0000000a0056006900650077007301000002710000016a000000a400ffffff000005690000039e00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  Image:
+    collapsed: false
+  QMainWindow State: 000000ff00000000fd0000000100000000000002d90000039efc0200000003fb000000100044006900730070006c006100790073010000003d000000c9000000c900fffffffb0000000a00560069006500770073010000010c000000a4000000a400fffffffb0000000a0049006d00610067006501000001b6000002250000002800ffffff0000045b0000039e00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
   Views:
     collapsed: false
   Width: 1850

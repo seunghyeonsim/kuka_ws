@@ -10,6 +10,20 @@
       </plugin>
     </gazebo>
 
+    <!-- Gazebo plugin for link state publishing -->
+    <gazebo>
+      <plugin name="gazebo_ros_p3d" filename="libgazebo_ros_p3d.so">
+          <ros>
+              <namespace>gazebo</namespace>
+              <remapping>odom:=end_effector_pose</remapping> <!-- remapping을 사용하여 토픽 이름 변경 -->
+          </ros>
+          <always_on>true</always_on>
+          <update_rate>100</update_rate>
+          <body_name>end_effector_link</body_name>
+          <frame_name>world</frame_name>
+      </plugin>
+    </gazebo>
+
     <gazebo reference="base_link">
       <material>Gazebo/Black</material>
     </gazebo>
@@ -35,6 +49,10 @@
     </gazebo>
 
     <gazebo reference="link_6">
+      <material>Gazebo/Black</material>
+    </gazebo>
+
+    <gazebo reference="end_effector_link">
       <material>Gazebo/Black</material>
     </gazebo>
 
