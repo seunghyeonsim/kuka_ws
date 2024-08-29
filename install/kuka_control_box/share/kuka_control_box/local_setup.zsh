@@ -1,0 +1,1 @@
+/home/kuka/kuka_ws/build/kuka_control_box/ament_cmake_environment_hooks/local_setup.zsh

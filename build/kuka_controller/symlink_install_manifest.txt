@@ -1,0 +1,17 @@
+/home/kuka/kuka_ws/install/kuka_controller/share/kuka_controller/config/kuka_controllers.yaml
+/home/kuka/kuka_ws/install/kuka_controller/share/kuka_controller/launch/controller.launch.py
+/home/kuka/kuka_ws/install/kuka_controller/share/ament_index/resource_index/package_run_dependencies/kuka_controller
+/home/kuka/kuka_ws/install/kuka_controller/share/ament_index/resource_index/parent_prefix_path/kuka_controller
+/home/kuka/kuka_ws/install/kuka_controller/share/kuka_controller/environment/ament_prefix_path.sh
+/home/kuka/kuka_ws/install/kuka_controller/share/kuka_controller/environment/ament_prefix_path.dsv
+/home/kuka/kuka_ws/install/kuka_controller/share/kuka_controller/environment/path.sh
+/home/kuka/kuka_ws/install/kuka_controller/share/kuka_controller/environment/path.dsv
+/home/kuka/kuka_ws/install/kuka_controller/share/kuka_controller/local_setup.bash
+/home/kuka/kuka_ws/install/kuka_controller/share/kuka_controller/local_setup.sh
+/home/kuka/kuka_ws/install/kuka_controller/share/kuka_controller/local_setup.zsh
+/home/kuka/kuka_ws/install/kuka_controller/share/kuka_controller/local_setup.dsv
+/home/kuka/kuka_ws/install/kuka_controller/share/kuka_controller/package.dsv
+/home/kuka/kuka_ws/install/kuka_controller/share/ament_index/resource_index/packages/kuka_controller
+/home/kuka/kuka_ws/install/kuka_controller/share/kuka_controller/cmake/kuka_controllerConfig.cmake
+/home/kuka/kuka_ws/install/kuka_controller/share/kuka_controller/cmake/kuka_controllerConfig-version.cmake
+/home/kuka/kuka_ws/install/kuka_controller/share/kuka_controller/package.xml

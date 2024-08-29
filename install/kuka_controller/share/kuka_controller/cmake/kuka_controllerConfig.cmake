@@ -1,0 +1,1 @@
+/home/kuka/kuka_ws/build/kuka_controller/ament_cmake_core/kuka_controllerConfig.cmake

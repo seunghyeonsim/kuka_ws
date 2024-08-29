@@ -1,1 +1,1 @@
-prepend-non-duplicate-if-exists;PATH;bin
+/home/kuka/kuka_ws/build/kuka_description/ament_cmake_environment_hooks/path.dsv

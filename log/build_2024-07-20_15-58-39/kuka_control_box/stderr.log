@@ -1,0 +1,4 @@
+[01m[K/home/kuka/kuka_ws/src/kuka_control_box/src/Robotics.cpp:[m[K In function ‘[01m[KEigen::MatrixXf getBlist()[m[K’:
+[01m[K/home/kuka/kuka_ws/src/kuka_control_box/src/Robotics.cpp:5:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kh1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+    5 |     double [01;35m[Kh1[m[K = 0.0515;
+      |            [01;35m[K^~[m[K

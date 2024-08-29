@@ -1,0 +1,355 @@
+[0.000000] (-) TimerEvent: {}
+[0.000263] (kuka_control_box) JobQueued: {'identifier': 'kuka_control_box', 'dependencies': OrderedDict()}
+[0.000381] (kuka_controller) JobQueued: {'identifier': 'kuka_controller', 'dependencies': OrderedDict()}
+[0.000467] (kuka_description) JobQueued: {'identifier': 'kuka_description', 'dependencies': OrderedDict()}
+[0.000539] (kuka_control_box) JobStarted: {'identifier': 'kuka_control_box'}
+[0.013080] (kuka_controller) JobStarted: {'identifier': 'kuka_controller'}
+[0.021684] (kuka_description) JobStarted: {'identifier': 'kuka_description'}
+[0.043071] (kuka_control_box) JobProgress: {'identifier': 'kuka_control_box', 'progress': 'cmake'}
+[0.044436] (kuka_control_box) JobProgress: {'identifier': 'kuka_control_box', 'progress': 'build'}
+[0.045885] (kuka_control_box) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kuka/kuka_ws/build/kuka_control_box', '--', '-j8', '-l8'], 'cwd': '/home/kuka/kuka_ws/build/kuka_control_box', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'kuka'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kuka'), ('OLDPWD', '/home/kuka'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1414'), ('SYSTEMD_EXEC_PID', '1768'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5555'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kuka/kuka_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kuka'), ('JOURNAL_STREAM', '8:31321'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kuka'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/kuka/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kuka-QM9850-9750-9650-6C-SATA:@/tmp/.ICE-unix/1544,unix/kuka-QM9850-9750-9650-6C-SATA:/tmp/.ICE-unix/1544'), ('INVOCATION_ID', 'e9508667bcf44107b31d5332c6195a3b'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.N060Q2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kuka/kuka_ws/install/kuka_description:/home/kuka/kuka_ws/install/kuka_controller:/home/kuka/kuka_ws/install/kuka_control_box:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:db989676-6b9a-48ba-bd6c-702ef08769b9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kuka/kuka_ws/build/kuka_control_box'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kuka/kuka_ws/install/kuka_description:/home/kuka/kuka_ws/install/kuka_controller:/home/kuka/kuka_ws/install/kuka_control_box:/opt/ros/humble')]), 'shell': False}
+[0.052720] (kuka_controller) JobProgress: {'identifier': 'kuka_controller', 'progress': 'cmake'}
+[0.054143] (kuka_controller) JobProgress: {'identifier': 'kuka_controller', 'progress': 'build'}
+[0.054763] (kuka_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kuka/kuka_ws/build/kuka_controller', '--', '-j8', '-l8'], 'cwd': '/home/kuka/kuka_ws/build/kuka_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'kuka'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kuka'), ('OLDPWD', '/home/kuka'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1414'), ('SYSTEMD_EXEC_PID', '1768'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5555'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kuka/kuka_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kuka'), ('JOURNAL_STREAM', '8:31321'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kuka'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/kuka/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kuka-QM9850-9750-9650-6C-SATA:@/tmp/.ICE-unix/1544,unix/kuka-QM9850-9750-9650-6C-SATA:/tmp/.ICE-unix/1544'), ('INVOCATION_ID', 'e9508667bcf44107b31d5332c6195a3b'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.N060Q2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kuka/kuka_ws/install/kuka_description:/home/kuka/kuka_ws/install/kuka_controller:/home/kuka/kuka_ws/install/kuka_control_box:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:db989676-6b9a-48ba-bd6c-702ef08769b9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kuka/kuka_ws/build/kuka_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kuka/kuka_ws/install/kuka_description:/home/kuka/kuka_ws/install/kuka_controller:/home/kuka/kuka_ws/install/kuka_control_box:/opt/ros/humble')]), 'shell': False}
+[0.065262] (kuka_description) JobProgress: {'identifier': 'kuka_description', 'progress': 'cmake'}
+[0.067125] (kuka_description) JobProgress: {'identifier': 'kuka_description', 'progress': 'build'}
+[0.068256] (kuka_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kuka/kuka_ws/build/kuka_description', '--', '-j8', '-l8'], 'cwd': '/home/kuka/kuka_ws/build/kuka_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'kuka'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kuka'), ('OLDPWD', '/home/kuka'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1414'), ('SYSTEMD_EXEC_PID', '1768'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5555'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kuka/kuka_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kuka'), ('JOURNAL_STREAM', '8:31321'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kuka'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/kuka/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kuka-QM9850-9750-9650-6C-SATA:@/tmp/.ICE-unix/1544,unix/kuka-QM9850-9750-9650-6C-SATA:/tmp/.ICE-unix/1544'), ('INVOCATION_ID', 'e9508667bcf44107b31d5332c6195a3b'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.N060Q2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kuka/kuka_ws/install/kuka_description:/home/kuka/kuka_ws/install/kuka_controller:/home/kuka/kuka_ws/install/kuka_control_box:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:db989676-6b9a-48ba-bd6c-702ef08769b9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kuka/kuka_ws/build/kuka_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kuka/kuka_ws/install/kuka_description:/home/kuka/kuka_ws/install/kuka_controller:/home/kuka/kuka_ws/install/kuka_control_box:/opt/ros/humble')]), 'shell': False}
+[0.098067] (-) TimerEvent: {}
+[0.108370] (kuka_control_box) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.153355] (kuka_controller) CommandEnded: {'returncode': 0}
+[0.163284] (kuka_description) CommandEnded: {'returncode': 0}
+[0.198215] (-) TimerEvent: {}
+[0.208944] (kuka_controller) JobProgress: {'identifier': 'kuka_controller', 'progress': 'install'}
+[0.230942] (kuka_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kuka/kuka_ws/build/kuka_controller'], 'cwd': '/home/kuka/kuka_ws/build/kuka_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'kuka'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kuka'), ('OLDPWD', '/home/kuka'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1414'), ('SYSTEMD_EXEC_PID', '1768'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5555'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kuka/kuka_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kuka'), ('JOURNAL_STREAM', '8:31321'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kuka'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/kuka/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kuka-QM9850-9750-9650-6C-SATA:@/tmp/.ICE-unix/1544,unix/kuka-QM9850-9750-9650-6C-SATA:/tmp/.ICE-unix/1544'), ('INVOCATION_ID', 'e9508667bcf44107b31d5332c6195a3b'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.N060Q2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kuka/kuka_ws/install/kuka_description:/home/kuka/kuka_ws/install/kuka_controller:/home/kuka/kuka_ws/install/kuka_control_box:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:db989676-6b9a-48ba-bd6c-702ef08769b9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kuka/kuka_ws/build/kuka_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kuka/kuka_ws/install/kuka_description:/home/kuka/kuka_ws/install/kuka_controller:/home/kuka/kuka_ws/install/kuka_control_box:/opt/ros/humble')]), 'shell': False}
+[0.236672] (kuka_description) JobProgress: {'identifier': 'kuka_description', 'progress': 'install'}
+[0.237714] (kuka_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kuka/kuka_ws/build/kuka_description'], 'cwd': '/home/kuka/kuka_ws/build/kuka_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'kuka'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kuka'), ('OLDPWD', '/home/kuka'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1414'), ('SYSTEMD_EXEC_PID', '1768'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5555'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kuka/kuka_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kuka'), ('JOURNAL_STREAM', '8:31321'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kuka'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/kuka/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kuka-QM9850-9750-9650-6C-SATA:@/tmp/.ICE-unix/1544,unix/kuka-QM9850-9750-9650-6C-SATA:/tmp/.ICE-unix/1544'), ('INVOCATION_ID', 'e9508667bcf44107b31d5332c6195a3b'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.N060Q2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kuka/kuka_ws/install/kuka_description:/home/kuka/kuka_ws/install/kuka_controller:/home/kuka/kuka_ws/install/kuka_control_box:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:db989676-6b9a-48ba-bd6c-702ef08769b9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kuka/kuka_ws/build/kuka_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kuka/kuka_ws/install/kuka_description:/home/kuka/kuka_ws/install/kuka_controller:/home/kuka/kuka_ws/install/kuka_control_box:/opt/ros/humble')]), 'shell': False}
+[0.251840] (kuka_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.253137] (kuka_controller) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.253995] (kuka_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_controller/share/kuka_controller/config/kuka_controllers.yaml\n'}
+[0.254546] (kuka_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_controller/share/kuka_controller/launch/controller.launch.py\n'}
+[0.255048] (kuka_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_controller/share/ament_index/resource_index/package_run_dependencies/kuka_controller\n'}
+[0.255492] (kuka_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_controller/share/ament_index/resource_index/parent_prefix_path/kuka_controller\n'}
+[0.255951] (kuka_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_controller/share/kuka_controller/environment/ament_prefix_path.sh\n'}
+[0.256907] (kuka_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_controller/share/kuka_controller/environment/ament_prefix_path.dsv\n'}
+[0.257416] (kuka_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_controller/share/kuka_controller/environment/path.sh\n'}
+[0.257895] (kuka_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_controller/share/kuka_controller/environment/path.dsv\n'}
+[0.258476] (kuka_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_controller/share/kuka_controller/local_setup.bash\n'}
+[0.259100] (kuka_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_controller/share/kuka_controller/local_setup.sh\n'}
+[0.259701] (kuka_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_controller/share/kuka_controller/local_setup.zsh\n'}
+[0.260268] (kuka_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_controller/share/kuka_controller/local_setup.dsv\n'}
+[0.260708] (kuka_controller) StdoutLine: {'line': b'-- Symlinking: /home/kuka/kuka_ws/install/kuka_controller/share/kuka_controller/package.dsv\n'}
+[0.263244] (kuka_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.264754] (kuka_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.266076] (kuka_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/meshes/link0_exp.stl\n'}
+[0.266494] (kuka_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/meshes/link1_exp.stl\n'}
+[0.266884] (kuka_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/meshes/link2_exp.stl\n'}
+[0.267292] (kuka_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/meshes/link3_exp.stl\n'}
+[0.267685] (kuka_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/meshes/link4_exp.stl\n'}
+[0.268142] (kuka_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/meshes/link5_exp.stl\n'}
+[0.268554] (kuka_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/meshes/link6_exp.stl\n'}
+[0.269323] (kuka_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/urdf/arduinobot.urdf.xacro\n'}
+[0.269732] (kuka_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/urdf/kuka.urdf.xacro\n'}
+[0.270134] (kuka_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/urdf/kuka_gazebo.xacro\n'}
+[0.270505] (kuka_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/urdf/kuka_ros2_control.xacro\n'}
+[0.271701] (kuka_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/models/ground_plane/model-1_2.sdf\n'}
+[0.272081] (kuka_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/models/ground_plane/model-1_3.sdf\n'}
+[0.272487] (kuka_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/models/ground_plane/model-1_4.sdf\n'}
+[0.272904] (kuka_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/models/ground_plane/model.config\n'}
+[0.273346] (kuka_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/models/ground_plane/model.sdf\n'}
+[0.273760] (kuka_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/models/sun/model-1_2.sdf\n'}
+[0.274291] (kuka_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/models/sun/model-1_3.sdf\n'}
+[0.274702] (kuka_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/models/sun/model-1_4.sdf\n'}
+[0.275157] (kuka_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/models/sun/model.config\n'}
+[0.275581] (kuka_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/models/sun/model.sdf\n'}
+[0.276487] (kuka_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/launch/display.launch.py\n'}
+[0.277818] (kuka_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/launch/gazebo.launch.py\n'}
+[0.278816] (kuka_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/rviz/display.rviz\n'}
+[0.279429] (kuka_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_description/share/ament_index/resource_index/package_run_dependencies/kuka_description\n'}
+[0.280131] (kuka_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_description/share/ament_index/resource_index/parent_prefix_path/kuka_description\n'}
+[0.280865] (kuka_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/environment/ament_prefix_path.sh\n'}
+[0.281502] (kuka_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/environment/ament_prefix_path.dsv\n'}
+[0.282145] (kuka_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/environment/path.sh\n'}
+[0.282786] (kuka_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/environment/path.dsv\n'}
+[0.283388] (kuka_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/local_setup.bash\n'}
+[0.283982] (kuka_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/local_setup.sh\n'}
+[0.284672] (kuka_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/local_setup.zsh\n'}
+[0.285193] (kuka_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/local_setup.dsv\n'}
+[0.285494] (kuka_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_controller/share/ament_index/resource_index/packages/kuka_controller\n'}
+[0.285944] (kuka_description) StdoutLine: {'line': b'-- Symlinking: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/package.dsv\n'}
+[0.286292] (kuka_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_controller/share/kuka_controller/cmake/kuka_controllerConfig.cmake\n'}
+[0.286641] (kuka_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_controller/share/kuka_controller/cmake/kuka_controllerConfig-version.cmake\n'}
+[0.287116] (kuka_controller) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_controller/share/kuka_controller/package.xml\n'}
+[0.292813] (kuka_controller) CommandEnded: {'returncode': 0}
+[0.298406] (-) TimerEvent: {}
+[0.307203] (kuka_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_description/share/ament_index/resource_index/packages/kuka_description\n'}
+[0.308057] (kuka_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/cmake/kuka_descriptionConfig.cmake\n'}
+[0.309910] (kuka_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/cmake/kuka_descriptionConfig-version.cmake\n'}
+[0.310114] (kuka_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/package.xml\n'}
+[0.336573] (kuka_description) CommandEnded: {'returncode': 0}
+[0.398794] (-) TimerEvent: {}
+[0.402474] (kuka_controller) JobEnded: {'identifier': 'kuka_controller', 'rc': 0}
+[0.432513] (kuka_description) JobEnded: {'identifier': 'kuka_description', 'rc': 0}
+[0.449788] (kuka_control_box) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.466613] (kuka_control_box) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.498971] (-) TimerEvent: {}
+[0.539307] (kuka_control_box) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.547102] (kuka_control_box) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.561727] (kuka_control_box) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.592043] (kuka_control_box) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.599124] (-) TimerEvent: {}
+[0.632536] (kuka_control_box) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.699308] (-) TimerEvent: {}
+[0.799202] (kuka_control_box) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.799602] (-) TimerEvent: {}
+[0.802334] (kuka_control_box) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.899772] (-) TimerEvent: {}
+[1.000242] (-) TimerEvent: {}
+[1.096635] (kuka_control_box) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.100373] (-) TimerEvent: {}
+[1.200741] (-) TimerEvent: {}
+[1.301216] (-) TimerEvent: {}
+[1.401655] (-) TimerEvent: {}
+[1.493467] (kuka_control_box) StdoutLine: {'line': b'-- Found trajectory_msgs: 4.2.4 (/opt/ros/humble/share/trajectory_msgs/cmake)\n'}
+[1.501791] (-) TimerEvent: {}
+[1.602246] (-) TimerEvent: {}
+[1.702691] (-) TimerEvent: {}
+[1.803182] (-) TimerEvent: {}
+[1.810497] (kuka_control_box) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.903333] (-) TimerEvent: {}
+[1.978535] (kuka_control_box) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.003504] (-) TimerEvent: {}
+[2.013198] (kuka_control_box) StdoutLine: {'line': b'-- Generating done\n'}
+[2.017360] (kuka_control_box) StdoutLine: {'line': b'-- Build files have been written to: /home/kuka/kuka_ws/build/kuka_control_box\n'}
+[2.077644] (kuka_control_box) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target Robotics\x1b[0m\n'}
+[2.078528] (kuka_control_box) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target trajectory_publisher\x1b[0m\n'}
+[2.103677] (-) TimerEvent: {}
+[2.125355] (kuka_control_box) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/Robotics.dir/src/Robotics.cpp.o\x1b[0m\n'}
+[2.127464] (kuka_control_box) StdoutLine: {'line': b'[ 50%] Built target trajectory_publisher\n'}
+[2.203870] (-) TimerEvent: {}
+[2.304375] (-) TimerEvent: {}
+[2.404925] (-) TimerEvent: {}
+[2.505450] (-) TimerEvent: {}
+[2.606026] (-) TimerEvent: {}
+[2.706497] (-) TimerEvent: {}
+[2.806997] (-) TimerEvent: {}
+[2.907504] (-) TimerEvent: {}
+[3.008066] (-) TimerEvent: {}
+[3.108637] (-) TimerEvent: {}
+[3.209181] (-) TimerEvent: {}
+[3.309602] (-) TimerEvent: {}
+[3.410024] (-) TimerEvent: {}
+[3.510472] (-) TimerEvent: {}
+[3.610907] (-) TimerEvent: {}
+[3.711345] (-) TimerEvent: {}
+[3.811808] (-) TimerEvent: {}
+[3.912232] (-) TimerEvent: {}
+[4.012726] (-) TimerEvent: {}
+[4.113194] (-) TimerEvent: {}
+[4.213697] (-) TimerEvent: {}
+[4.314156] (-) TimerEvent: {}
+[4.414683] (-) TimerEvent: {}
+[4.515149] (-) TimerEvent: {}
+[4.615587] (-) TimerEvent: {}
+[4.716087] (-) TimerEvent: {}
+[4.816564] (-) TimerEvent: {}
+[4.905258] (kuka_control_box) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuka/kuka_ws/src/kuka_control_box/src/Robotics.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KEigen::MatrixXf getBlist()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.905598] (kuka_control_box) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuka/kuka_ws/src/kuka_control_box/src/Robotics.cpp:5:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kh1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.905771] (kuka_control_box) StderrLine: {'line': b'    5 |     double \x1b[01;35m\x1b[Kh1\x1b[m\x1b[K = 0.0515;\n'}
+[4.905922] (kuka_control_box) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.916714] (-) TimerEvent: {}
+[5.017177] (-) TimerEvent: {}
+[5.117672] (-) TimerEvent: {}
+[5.218171] (-) TimerEvent: {}
+[5.318669] (-) TimerEvent: {}
+[5.419116] (-) TimerEvent: {}
+[5.519608] (-) TimerEvent: {}
+[5.620069] (-) TimerEvent: {}
+[5.720568] (-) TimerEvent: {}
+[5.821020] (-) TimerEvent: {}
+[5.921503] (-) TimerEvent: {}
+[6.021961] (-) TimerEvent: {}
+[6.122461] (-) TimerEvent: {}
+[6.222917] (-) TimerEvent: {}
+[6.323436] (-) TimerEvent: {}
+[6.423979] (-) TimerEvent: {}
+[6.524513] (-) TimerEvent: {}
+[6.625059] (-) TimerEvent: {}
+[6.725601] (-) TimerEvent: {}
+[6.826339] (-) TimerEvent: {}
+[6.926964] (-) TimerEvent: {}
+[7.027735] (-) TimerEvent: {}
+[7.128446] (-) TimerEvent: {}
+[7.229127] (-) TimerEvent: {}
+[7.329793] (-) TimerEvent: {}
+[7.430507] (-) TimerEvent: {}
+[7.531129] (-) TimerEvent: {}
+[7.631615] (-) TimerEvent: {}
+[7.732125] (-) TimerEvent: {}
+[7.832643] (-) TimerEvent: {}
+[7.933147] (-) TimerEvent: {}
+[8.033651] (-) TimerEvent: {}
+[8.134155] (-) TimerEvent: {}
+[8.234611] (-) TimerEvent: {}
+[8.335034] (-) TimerEvent: {}
+[8.435464] (-) TimerEvent: {}
+[8.535916] (-) TimerEvent: {}
+[8.636378] (-) TimerEvent: {}
+[8.736822] (-) TimerEvent: {}
+[8.837270] (-) TimerEvent: {}
+[8.937708] (-) TimerEvent: {}
+[9.038187] (-) TimerEvent: {}
+[9.138700] (-) TimerEvent: {}
+[9.239242] (-) TimerEvent: {}
+[9.339847] (-) TimerEvent: {}
+[9.440590] (-) TimerEvent: {}
+[9.541310] (-) TimerEvent: {}
+[9.642080] (-) TimerEvent: {}
+[9.742796] (-) TimerEvent: {}
+[9.843634] (-) TimerEvent: {}
+[9.944299] (-) TimerEvent: {}
+[10.044759] (-) TimerEvent: {}
+[10.145211] (-) TimerEvent: {}
+[10.245696] (-) TimerEvent: {}
+[10.346298] (-) TimerEvent: {}
+[10.446696] (-) TimerEvent: {}
+[10.547142] (-) TimerEvent: {}
+[10.647549] (-) TimerEvent: {}
+[10.748013] (-) TimerEvent: {}
+[10.848443] (-) TimerEvent: {}
+[10.948862] (-) TimerEvent: {}
+[11.049293] (-) TimerEvent: {}
+[11.149715] (-) TimerEvent: {}
+[11.250142] (-) TimerEvent: {}
+[11.350576] (-) TimerEvent: {}
+[11.450977] (-) TimerEvent: {}
+[11.551418] (-) TimerEvent: {}
+[11.651942] (-) TimerEvent: {}
+[11.752459] (-) TimerEvent: {}
+[11.852931] (-) TimerEvent: {}
+[11.953384] (-) TimerEvent: {}
+[11.975523] (kuka_control_box) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX static library libRobotics.a\x1b[0m\n'}
+[12.053561] (-) TimerEvent: {}
+[12.136695] (kuka_control_box) StdoutLine: {'line': b'[ 66%] Built target Robotics\n'}
+[12.153746] (-) TimerEvent: {}
+[12.159534] (kuka_control_box) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target kuka_ik_node\x1b[0m\n'}
+[12.210135] (kuka_control_box) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/kuka_ik_node.dir/src/kuka_ik_node.cpp.o\x1b[0m\n'}
+[12.253917] (-) TimerEvent: {}
+[12.354367] (-) TimerEvent: {}
+[12.454800] (-) TimerEvent: {}
+[12.555328] (-) TimerEvent: {}
+[12.655808] (-) TimerEvent: {}
+[12.756540] (-) TimerEvent: {}
+[12.857046] (-) TimerEvent: {}
+[12.957561] (-) TimerEvent: {}
+[13.058071] (-) TimerEvent: {}
+[13.158840] (-) TimerEvent: {}
+[13.259593] (-) TimerEvent: {}
+[13.360192] (-) TimerEvent: {}
+[13.460737] (-) TimerEvent: {}
+[13.561284] (-) TimerEvent: {}
+[13.661837] (-) TimerEvent: {}
+[13.762375] (-) TimerEvent: {}
+[13.862903] (-) TimerEvent: {}
+[13.963393] (-) TimerEvent: {}
+[14.063813] (-) TimerEvent: {}
+[14.164201] (-) TimerEvent: {}
+[14.264640] (-) TimerEvent: {}
+[14.365151] (-) TimerEvent: {}
+[14.465638] (-) TimerEvent: {}
+[14.566122] (-) TimerEvent: {}
+[14.666614] (-) TimerEvent: {}
+[14.767121] (-) TimerEvent: {}
+[14.867667] (-) TimerEvent: {}
+[14.968353] (-) TimerEvent: {}
+[15.069050] (-) TimerEvent: {}
+[15.169774] (-) TimerEvent: {}
+[15.270495] (-) TimerEvent: {}
+[15.370985] (-) TimerEvent: {}
+[15.471479] (-) TimerEvent: {}
+[15.571969] (-) TimerEvent: {}
+[15.672650] (-) TimerEvent: {}
+[15.773266] (-) TimerEvent: {}
+[15.873995] (-) TimerEvent: {}
+[15.974890] (-) TimerEvent: {}
+[16.075370] (-) TimerEvent: {}
+[16.175809] (-) TimerEvent: {}
+[16.276259] (-) TimerEvent: {}
+[16.376759] (-) TimerEvent: {}
+[16.477191] (-) TimerEvent: {}
+[16.577620] (-) TimerEvent: {}
+[16.678060] (-) TimerEvent: {}
+[16.778605] (-) TimerEvent: {}
+[16.879316] (-) TimerEvent: {}
+[16.979844] (-) TimerEvent: {}
+[17.080349] (-) TimerEvent: {}
+[17.180812] (-) TimerEvent: {}
+[17.281249] (-) TimerEvent: {}
+[17.381726] (-) TimerEvent: {}
+[17.482329] (-) TimerEvent: {}
+[17.583105] (-) TimerEvent: {}
+[17.683586] (-) TimerEvent: {}
+[17.784103] (-) TimerEvent: {}
+[17.884568] (-) TimerEvent: {}
+[17.985037] (-) TimerEvent: {}
+[18.085491] (-) TimerEvent: {}
+[18.185938] (-) TimerEvent: {}
+[18.286389] (-) TimerEvent: {}
+[18.386841] (-) TimerEvent: {}
+[18.487297] (-) TimerEvent: {}
+[18.587765] (-) TimerEvent: {}
+[18.688244] (-) TimerEvent: {}
+[18.788766] (-) TimerEvent: {}
+[18.889212] (-) TimerEvent: {}
+[18.989656] (-) TimerEvent: {}
+[19.090139] (-) TimerEvent: {}
+[19.190633] (-) TimerEvent: {}
+[19.291101] (-) TimerEvent: {}
+[19.391545] (-) TimerEvent: {}
+[19.491987] (-) TimerEvent: {}
+[19.592450] (-) TimerEvent: {}
+[19.692915] (-) TimerEvent: {}
+[19.793406] (-) TimerEvent: {}
+[19.893851] (-) TimerEvent: {}
+[19.994321] (-) TimerEvent: {}
+[20.094775] (-) TimerEvent: {}
+[20.195226] (-) TimerEvent: {}
+[20.295694] (-) TimerEvent: {}
+[20.396111] (-) TimerEvent: {}
+[20.435888] (kuka_control_box) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable kuka_ik_node\x1b[0m\n'}
+[20.496324] (-) TimerEvent: {}
+[20.596774] (-) TimerEvent: {}
+[20.697201] (-) TimerEvent: {}
+[20.797776] (-) TimerEvent: {}
+[20.898208] (-) TimerEvent: {}
+[20.968489] (kuka_control_box) StdoutLine: {'line': b'[100%] Built target kuka_ik_node\n'}
+[20.995324] (kuka_control_box) CommandEnded: {'returncode': 0}
+[20.998343] (-) TimerEvent: {}
+[21.069552] (kuka_control_box) JobProgress: {'identifier': 'kuka_control_box', 'progress': 'install'}
+[21.069720] (kuka_control_box) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kuka/kuka_ws/build/kuka_control_box'], 'cwd': '/home/kuka/kuka_ws/build/kuka_control_box', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'kuka'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kuka'), ('OLDPWD', '/home/kuka'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1414'), ('SYSTEMD_EXEC_PID', '1768'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5555'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kuka/kuka_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kuka'), ('JOURNAL_STREAM', '8:31321'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kuka'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/kuka/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kuka-QM9850-9750-9650-6C-SATA:@/tmp/.ICE-unix/1544,unix/kuka-QM9850-9750-9650-6C-SATA:/tmp/.ICE-unix/1544'), ('INVOCATION_ID', 'e9508667bcf44107b31d5332c6195a3b'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.N060Q2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kuka/kuka_ws/install/kuka_description:/home/kuka/kuka_ws/install/kuka_controller:/home/kuka/kuka_ws/install/kuka_control_box:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:db989676-6b9a-48ba-bd6c-702ef08769b9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kuka/kuka_ws/build/kuka_control_box'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kuka/kuka_ws/install/kuka_description:/home/kuka/kuka_ws/install/kuka_controller:/home/kuka/kuka_ws/install/kuka_control_box:/opt/ros/humble')]), 'shell': False}
+[21.087912] (kuka_control_box) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.089384] (kuka_control_box) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[21.090461] (kuka_control_box) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_control_box/lib/kuka_control_box/trajectory_publisher\n'}
+[21.091026] (kuka_control_box) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_control_box/lib/kuka_control_box/kuka_ik_node\n'}
+[21.091517] (kuka_control_box) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_control_box/lib/kuka_control_box/libRobotics.a\n'}
+[21.092686] (kuka_control_box) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_control_box/include/kuka_control_box/Robotics.h\n'}
+[21.093449] (kuka_control_box) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_control_box/share/ament_index/resource_index/package_run_dependencies/kuka_control_box\n'}
+[21.094039] (kuka_control_box) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_control_box/share/ament_index/resource_index/parent_prefix_path/kuka_control_box\n'}
+[21.094657] (kuka_control_box) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_control_box/share/kuka_control_box/environment/ament_prefix_path.sh\n'}
+[21.095291] (kuka_control_box) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_control_box/share/kuka_control_box/environment/ament_prefix_path.dsv\n'}
+[21.095949] (kuka_control_box) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_control_box/share/kuka_control_box/environment/path.sh\n'}
+[21.096582] (kuka_control_box) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_control_box/share/kuka_control_box/environment/path.dsv\n'}
+[21.097123] (kuka_control_box) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_control_box/share/kuka_control_box/local_setup.bash\n'}
+[21.097697] (kuka_control_box) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_control_box/share/kuka_control_box/local_setup.sh\n'}
+[21.098221] (kuka_control_box) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_control_box/share/kuka_control_box/local_setup.zsh\n'}
+[21.098529] (-) TimerEvent: {}
+[21.098880] (kuka_control_box) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_control_box/share/kuka_control_box/local_setup.dsv\n'}
+[21.099381] (kuka_control_box) StdoutLine: {'line': b'-- Symlinking: /home/kuka/kuka_ws/install/kuka_control_box/share/kuka_control_box/package.dsv\n'}
+[21.121275] (kuka_control_box) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_control_box/share/ament_index/resource_index/packages/kuka_control_box\n'}
+[21.121949] (kuka_control_box) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_control_box/share/kuka_control_box/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[21.122343] (kuka_control_box) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_control_box/share/kuka_control_box/cmake/kuka_control_boxConfig.cmake\n'}
+[21.122758] (kuka_control_box) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_control_box/share/kuka_control_box/cmake/kuka_control_boxConfig-version.cmake\n'}
+[21.123785] (kuka_control_box) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kuka/kuka_ws/install/kuka_control_box/share/kuka_control_box/package.xml\n'}
+[21.128081] (kuka_control_box) CommandEnded: {'returncode': 0}
+[21.198666] (-) TimerEvent: {}
+[21.238341] (kuka_control_box) JobEnded: {'identifier': 'kuka_control_box', 'rc': 0}
+[21.240556] (-) EventReactorShutdown: {}

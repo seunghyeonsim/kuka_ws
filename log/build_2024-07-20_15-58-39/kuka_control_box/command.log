@@ -1,0 +1,6 @@
+Invoking command in '/home/kuka/kuka_ws/build/kuka_control_box': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kuka/kuka_ws/src/kuka_control_box -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kuka/kuka_ws/install/kuka_control_box
+Invoked command in '/home/kuka/kuka_ws/build/kuka_control_box' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kuka/kuka_ws/src/kuka_control_box -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kuka/kuka_ws/install/kuka_control_box
+Invoking command in '/home/kuka/kuka_ws/build/kuka_control_box': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kuka/kuka_ws/build/kuka_control_box -- -j8 -l8
+Invoked command in '/home/kuka/kuka_ws/build/kuka_control_box' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kuka/kuka_ws/build/kuka_control_box -- -j8 -l8
+Invoking command in '/home/kuka/kuka_ws/build/kuka_control_box': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kuka/kuka_ws/build/kuka_control_box
+Invoked command in '/home/kuka/kuka_ws/build/kuka_control_box' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kuka/kuka_ws/build/kuka_control_box

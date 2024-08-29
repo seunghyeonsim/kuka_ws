@@ -1,0 +1,48 @@
+[0.042s] Invoking command in '/home/kuka/kuka_ws/build/kuka_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kuka/kuka_ws/src/kuka_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kuka/kuka_ws/install/kuka_controller
+[0.225s] -- The C compiler identification is GNU 11.4.0
+[0.379s] -- The CXX compiler identification is GNU 11.4.0
+[0.403s] -- Detecting C compiler ABI info
+[0.619s] -- Detecting C compiler ABI info - done
+[0.655s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.656s] -- Detecting C compile features
+[0.658s] -- Detecting C compile features - done
+[0.671s] -- Detecting CXX compiler ABI info
+[0.926s] -- Detecting CXX compiler ABI info - done
+[0.961s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.962s] -- Detecting CXX compile features
+[0.964s] -- Detecting CXX compile features - done
+[0.971s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.364s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.536s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.629s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.834s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.835s] -- Added test 'lint_cmake' to check CMake code style
+[1.839s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.843s] -- Added test 'xmllint' to check XML markup files
+[1.848s] -- Configuring done
+[1.856s] -- Generating done
+[1.858s] -- Build files have been written to: /home/kuka/kuka_ws/build/kuka_controller
+[1.867s] Invoked command in '/home/kuka/kuka_ws/build/kuka_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kuka/kuka_ws/src/kuka_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kuka/kuka_ws/install/kuka_controller
+[1.871s] Invoking command in '/home/kuka/kuka_ws/build/kuka_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kuka/kuka_ws/build/kuka_controller -- -j8 -l8
+[1.967s] Invoked command in '/home/kuka/kuka_ws/build/kuka_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kuka/kuka_ws/build/kuka_controller -- -j8 -l8
+[2.043s] Invoking command in '/home/kuka/kuka_ws/build/kuka_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kuka/kuka_ws/build/kuka_controller
+[2.061s] -- Install configuration: ""
+[2.063s] -- Execute custom install script
+[2.064s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_controller/share/kuka_controller/config/kuka_controllers.yaml
+[2.086s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_controller/share/kuka_controller/launch/controller.launch.py
+[2.111s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_controller/share/ament_index/resource_index/package_run_dependencies/kuka_controller
+[2.136s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_controller/share/ament_index/resource_index/parent_prefix_path/kuka_controller
+[2.159s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_controller/share/kuka_controller/environment/ament_prefix_path.sh
+[2.179s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_controller/share/kuka_controller/environment/ament_prefix_path.dsv
+[2.201s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_controller/share/kuka_controller/environment/path.sh
+[2.223s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_controller/share/kuka_controller/environment/path.dsv
+[2.249s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_controller/share/kuka_controller/local_setup.bash
+[2.272s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_controller/share/kuka_controller/local_setup.sh
+[2.301s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_controller/share/kuka_controller/local_setup.zsh
+[2.324s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_controller/share/kuka_controller/local_setup.dsv
+[2.349s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_controller/share/kuka_controller/package.dsv
+[2.373s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_controller/share/ament_index/resource_index/packages/kuka_controller
+[2.399s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_controller/share/kuka_controller/cmake/kuka_controllerConfig.cmake
+[2.423s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_controller/share/kuka_controller/cmake/kuka_controllerConfig-version.cmake
+[2.443s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_controller/share/kuka_controller/package.xml
+[2.470s] Invoked command in '/home/kuka/kuka_ws/build/kuka_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kuka/kuka_ws/build/kuka_controller

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/kuka/kuka_ws/build/kuka_control_box/trajectory_publisher" "/home/kuka/kuka_ws/build/kuka_control_box/kuka_ik_node" "/home/kuka/kuka_ws/build/kuka_control_box/libRobotics.a" "TARGETS" "trajectory_publisher" "kuka_ik_node" "Robotics" "DESTINATION" "lib/kuka_control_box")

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libRobotics.a CMakeFiles/Robotics.dir/src/Robotics.cpp.o
+/usr/bin/ranlib libRobotics.a

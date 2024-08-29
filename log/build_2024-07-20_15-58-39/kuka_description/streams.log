@@ -1,0 +1,71 @@
+[0.043s] Invoking command in '/home/kuka/kuka_ws/build/kuka_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kuka/kuka_ws/src/kuka_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kuka/kuka_ws/install/kuka_description
+[0.218s] -- The C compiler identification is GNU 11.4.0
+[0.371s] -- The CXX compiler identification is GNU 11.4.0
+[0.392s] -- Detecting C compiler ABI info
+[0.588s] -- Detecting C compiler ABI info - done
+[0.625s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.626s] -- Detecting C compile features
+[0.628s] -- Detecting C compile features - done
+[0.639s] -- Detecting CXX compiler ABI info
+[0.874s] -- Detecting CXX compiler ABI info - done
+[0.910s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.911s] -- Detecting CXX compile features
+[0.913s] -- Detecting CXX compile features - done
+[0.921s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.343s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.519s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.617s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[1.799s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.028s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.033s] -- Added test 'lint_cmake' to check CMake code style
+[2.035s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.043s] -- Added test 'xmllint' to check XML markup files
+[2.049s] -- Configuring done
+[2.059s] -- Generating done
+[2.063s] -- Build files have been written to: /home/kuka/kuka_ws/build/kuka_description
+[2.081s] Invoked command in '/home/kuka/kuka_ws/build/kuka_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kuka/kuka_ws/src/kuka_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kuka/kuka_ws/install/kuka_description
+[2.086s] Invoking command in '/home/kuka/kuka_ws/build/kuka_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kuka/kuka_ws/build/kuka_description -- -j8 -l8
+[2.184s] Invoked command in '/home/kuka/kuka_ws/build/kuka_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kuka/kuka_ws/build/kuka_description -- -j8 -l8
+[2.245s] Invoking command in '/home/kuka/kuka_ws/build/kuka_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kuka/kuka_ws/build/kuka_description
+[2.261s] -- Install configuration: ""
+[2.262s] -- Execute custom install script
+[2.264s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/meshes/link0_exp.stl
+[2.293s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/meshes/link1_exp.stl
+[2.316s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/meshes/link2_exp.stl
+[2.343s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/meshes/link3_exp.stl
+[2.366s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/meshes/link4_exp.stl
+[2.391s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/meshes/link5_exp.stl
+[2.412s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/meshes/link6_exp.stl
+[2.433s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/urdf/arduinobot.urdf.xacro
+[2.455s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/urdf/kuka.urdf.xacro
+[2.476s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/urdf/kuka_gazebo.xacro
+[2.497s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/urdf/kuka_ros2_control.xacro
+[2.526s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/models/ground_plane/model-1_2.sdf
+[2.553s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/models/ground_plane/model-1_3.sdf
+[2.573s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/models/ground_plane/model-1_4.sdf
+[2.601s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/models/ground_plane/model.config
+[2.623s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/models/ground_plane/model.sdf
+[2.645s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/models/sun/model-1_2.sdf
+[2.668s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/models/sun/model-1_3.sdf
+[2.689s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/models/sun/model-1_4.sdf
+[2.709s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/models/sun/model.config
+[2.728s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/models/sun/model.sdf
+[2.751s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/launch/display.launch.py
+[2.771s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/launch/gazebo.launch.py
+[2.792s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/rviz/display.rviz
+[2.814s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_description/share/ament_index/resource_index/package_run_dependencies/kuka_description
+[2.841s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_description/share/ament_index/resource_index/parent_prefix_path/kuka_description
+[2.867s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/environment/ament_prefix_path.sh
+[2.888s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/environment/ament_prefix_path.dsv
+[2.909s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/environment/path.sh
+[2.930s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/environment/path.dsv
+[2.954s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/local_setup.bash
+[2.974s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/local_setup.sh
+[2.996s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/local_setup.zsh
+[3.025s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/local_setup.dsv
+[3.046s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/package.dsv
+[3.066s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_description/share/ament_index/resource_index/packages/kuka_description
+[3.092s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/cmake/kuka_descriptionConfig.cmake
+[3.118s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/cmake/kuka_descriptionConfig-version.cmake
+[3.142s] -- Symlinking: /home/kuka/kuka_ws/install/kuka_description/share/kuka_description/package.xml
+[3.170s] Invoked command in '/home/kuka/kuka_ws/build/kuka_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kuka/kuka_ws/build/kuka_description
